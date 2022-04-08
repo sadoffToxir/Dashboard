@@ -1,0 +1,37 @@
+.manageUserForms {
+  font-size: 20px;
+  padding: 0 30px;
+  margin: 70px 0px 0px 20%;
+
+  .manageUserForm {
+      margin: 50px 0px;
+
+
+    .manageUserLabel {
+
+    }
+    .manageUserInputContainer {
+        height: 60px;
+        width: 700px;
+        float: right;
+
+      .manageUserInput {
+        height: 30px;
+        width: 700px;
+      }
+
+      .manageUserInputError {
+        color: red;
+        border-color: red;
+      }
+    }
+
+  }
+
+  .buttons {
+    margin-top: 60px;
+    float: right;
+    display: flex;
+    gap: 20px
+  }
+}
